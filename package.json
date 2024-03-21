@@ -1,18 +1,22 @@
 {
 	"name": "enforce-houtan",
-	"main": "enforce-houtan.js",
+	"main": "eslint-plugin-houtan.js",
 	"version": "1.0.0",
 	"description": "enforces houtan over hooman",
   "peerDependencies": {
     "eslint": ">=8.0.0"
   },
-	"keywords": ["houtan", "enforce", "hooman"],
-  "type": "commonjs",
+	"keywords": [
+		"houtan",
+		"enforce",
+		"hooman"
+	],
+	"type": "commonjs",
 	"scripts": {
 		"test": "node enforce-houtan.test.js"
 	},
 	"author": "Houtan Rocky",
-  "license": "ISC",
+	"license": "ISC",
   "devDependencies": {
     "eslint": "^8.36.0"
   }

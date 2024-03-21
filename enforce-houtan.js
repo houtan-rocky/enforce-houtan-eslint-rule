@@ -2,7 +2,7 @@ module.exports = {
 	meta: {
 		type: 'problem',
 		hasSuggestions: true,
-		fixable: "code",
+		fixable: true,
 	},
 
 	create(context) {

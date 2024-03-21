@@ -1,2 +1,0 @@
-hooman("hi")
-houtan("ali")
